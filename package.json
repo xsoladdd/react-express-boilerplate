@@ -1,0 +1,26 @@
+{
+  "name": "react-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Boiler plate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Ericson Funtanar",
+  "license": "MIT",
+  "dependencies": {
+    "003-npm": "^1.0.0",
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "node-sass": "^4.13.1",
+    "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  },
+  "keywords": []
+}
