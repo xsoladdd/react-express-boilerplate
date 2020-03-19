@@ -19,6 +19,11 @@ app.get('/api/customers', (req,res) => {
         firstName: 'Hello',
         lastName: 'World'
       },
+      {
+        id:4,
+        firstName: 'mik',
+        lastName: 'mak'
+      },
     ];
   res.json(customers);
 });
